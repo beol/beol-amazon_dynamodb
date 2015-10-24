@@ -1,0 +1,21 @@
+{
+  "name": "beol-amazon_dynamodb",
+  "version": "0.1.0",
+  "author": "Leo Laksmana <beol@laksmana.com>",
+  "summary": "Installs Amazon DynamoDB Local",
+  "license": "Amazon DynamoDB Local",
+  "source": "https://github.com/beol/beol-amazon_dynamodb",
+  "project_page": "https://github.com/beol/beol-amazon_dynamodb",
+  "issues_url": "https://github.com/beol/beol-amazon_dynamodb/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"CentOS",
+      "operatingsystemrelease":["6"]
+    }
+  ],
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"},
+    {"version_requirement":">= 0.1.0","name":"beol-oracle_java"}
+  ]
+}
+
